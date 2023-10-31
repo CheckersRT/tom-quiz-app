@@ -1,8 +1,8 @@
 .about-me {
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 100px;
     position: relative;
 }
 
@@ -31,10 +31,9 @@
     justify-content: space-around;
     align-items: center;
     width: 55px;
-    align-self: center;
+    align-self: flex-end;
     padding: 4px;
     padding-top: 5px;
-    /* border: solid 1px #68767F; */
     border-radius: 8px;
     background-color: #68767F;
 
@@ -54,3 +53,16 @@
     width: 15px;
 }
 
+.settings__header {
+    margin-bottom: 15px;
+}
+
+.settings__darkmode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings img {
+    width: 45px;
+}

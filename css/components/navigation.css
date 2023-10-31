@@ -8,6 +8,7 @@ nav {
     z-index: 1;
     justify-content: space-around;
     align-items: center;
+    border-top: 0.5px solid #68767F;
 }
 
 .nav-item {
