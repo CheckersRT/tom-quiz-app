@@ -2,7 +2,7 @@
 .questions {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     width: 85vw;
     margin: auto;
     margin-top: 20px;
@@ -22,13 +22,22 @@
 
     border-radius: 30px;
     background-color: #E21837;
+    position: relative;
 }
 
 .question-card__item {
     /* border: 1px solid blue; */
     text-align: center;
-    background-color: #E21837;
+    background-color: inherit;
     color: white;
+}
+
+.question-card__item__bookmark {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    top: -14px;
+    background-color: transparent;
 }
 
 .question-card__item__number {
