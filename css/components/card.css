@@ -17,8 +17,9 @@
     justify-content: space-between;
     gap: 12px;
 
-    border-radius: 30px;
-    background-color: #E21837;
+    /* border-radius: 30px; */
+    background-color: white;
+    box-shadow: 2px 10px 0px rgba(0, 0, 0, 0.05);
     position: relative;
 }
 
@@ -26,7 +27,7 @@
     /* border: 1px solid blue; */
     text-align: center;
     background-color: inherit;
-    color: white;
+    color: black;
 }
 
 .question-card__item__bookmark {
@@ -41,7 +42,7 @@
     font-size: 1.8rem;
     width: 170px;
     padding-bottom: 10px;
-    border-bottom: 0.5px solid white ;
+    border-bottom: 0.5px solid black ;
 }
 
 .question-card__item__question {
@@ -61,4 +62,13 @@
     /* border: solid 1px blue; */
     font-size: 0.8rem;
 
+}
+
+
+/* hover over card effect */
+
+.question-card__container:hover {
+    /* background-color: red; */
+
+    box-shadow: 5px 14px 5px rgba(0, 0, 0, 0.08);
 }

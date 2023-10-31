@@ -1,13 +1,26 @@
 
 button.question-card__item__answer {
-    background-color: white;
+    background-color: #D71834;
     min-width: 110px;
-    border-radius: 10px;
+    border: none;
+    padding: 10px;
+
+}
+
+.answer-revealed {
+    background-color: #D71834;
+    color: white;
+}
+
+.show-answer {
+    background-color: #D71834;
+    color: white;
 
 }
 
 .answer-revealed, button:focus .show-answer {
     display: none;
+
 }
 
 button:focus .answer-revealed {
