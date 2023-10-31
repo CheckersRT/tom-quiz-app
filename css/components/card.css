@@ -68,7 +68,5 @@
 /* hover over card effect */
 
 .question-card__container:hover {
-    /* background-color: red; */
-
     box-shadow: 5px 14px 5px rgba(0, 0, 0, 0.08);
 }
