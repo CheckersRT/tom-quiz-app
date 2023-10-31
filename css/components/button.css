@@ -30,6 +30,8 @@ button:focus .answer-revealed {
 
 .answer-revealed ul, .answer-revealed ol, .answer-revealed li {
     margin-left: 10px;
+    background-color: white;
+
 }
 
 .answer-revealed li {
