@@ -31,12 +31,22 @@
 }
 
 .question-card__item__bookmark {
-    /* width: 30px; */
+    /* border: 1px solid black; */
     position: absolute;
     right: 15px;
     top: -14px;
-    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-image: url(../bookmark.png);
+    background-size: contain;
 }
+
+.question-card__item__bookmark:focus {
+    background-image: url(../bookmark_filled.png);
+    z-index: 1;
+}
+
 
 .question-card__item__bookmark img {
     width: 30px;
