@@ -1,0 +1,56 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.about-me__item {
+    /* border: 1px solid blue; */
+    height: auto;
+}
+
+.about-me__item__image {
+    height: 150px;
+}
+
+.about-me__item__image img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.about-me__item__name {
+    position: absolute;
+    right: 0;
+    top: 110px
+}
+
+.about-me__item__bookmark-counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55px;
+    align-self: center;
+    padding: 4px;
+    padding-top: 5px;
+    /* border: solid 1px #68767F; */
+    border-radius: 8px;
+    background-color: #68767F;
+
+}
+
+.about-me__item__bookmark-counter__item__number {
+    background-color: #68767F;
+    color: white;
+}
+
+.about-me__item__bookmark-counter__item__icon {
+    background-color: transparent;
+}
+
+.about-me__item__bookmark-counter__item img {
+    background-color: transparent;
+    width: 15px;
+}
+
