@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    width: 15px;
+}
+
+.nav-item img {
+    width: 30px;
+}
