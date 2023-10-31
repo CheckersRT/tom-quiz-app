@@ -1,0 +1,28 @@
+.header-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* border: 1px solid red; */
+}
+
+.header-item {
+        /* border: 1px solid black; */
+        height: 30px;
+        width: 200px;
+        text-align: center;
+}
+
+.header-item:nth-child(1) {
+    margin-bottom: -17px;
+    z-index: 1;
+}
+
+.header-item:nth-child(2) {
+    height: 100px;
+}
+
+.header-item img {
+    width: inherit;
+}

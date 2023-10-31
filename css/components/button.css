@@ -1,0 +1,25 @@
+
+.show-answer {
+    background-color: #68767F;
+
+}
+
+.answer-revealed, button:focus .show-answer {
+    background-color: #68767F;
+    display: none;
+}
+
+button:focus .answer-revealed {
+    background-color: #68767F;
+    display: block;
+}
+
+.answer-revealed ul, .answer-revealed ol, .answer-revealed li {
+    background-color: #68767F;
+    margin-left: 5px;
+}
+
+.answer-revealed li {
+    text-align: left;
+    line-height: 1.4;
+}
