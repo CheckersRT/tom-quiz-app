@@ -14,8 +14,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 10px; */
     justify-content: space-between;
+    gap: 8px;
 
     border-radius: 30px;
     background-color: #E21837;
@@ -50,14 +50,14 @@
 }
 
 .question-card__item__answer {
-    background-color: #68767F;
+    /* background-color: #68767F; */
     padding: 10px;
-    color: white;
+    /* color: white; */
     margin-top: 10px;
 }
 
 .question-card__item__tag {
-    position: absolute;
-    left: 18px;
-    bottom: 18px;
+    /* border: solid 1px blue; */
+    font-size: 0.8rem;
+
 }
