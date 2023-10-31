@@ -9,7 +9,7 @@
 .question-card__container {
     width: 100%;
     min-height: 200px;
-    padding: 15px;
+    padding: 20px 20px;
 
     display: flex;
     flex-direction: column;
@@ -31,11 +31,15 @@
 }
 
 .question-card__item__bookmark {
-    width: 30px;
+    /* width: 30px; */
     position: absolute;
     right: 15px;
     top: -14px;
     background-color: transparent;
+}
+
+.question-card__item__bookmark img {
+    width: 30px;
 }
 
 .question-card__item__number {
