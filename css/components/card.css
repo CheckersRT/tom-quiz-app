@@ -2,7 +2,7 @@
 .questions {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     width: 85vw;
     margin: auto;
     margin-top: 20px;
@@ -11,7 +11,7 @@
 
 .question-card__container {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     padding: 15px;
 
     display: flex;
@@ -22,13 +22,22 @@
 
     border-radius: 30px;
     background-color: #E21837;
+    position: relative;
 }
 
 .question-card__item {
     /* border: 1px solid blue; */
     text-align: center;
-    background-color: #E21837;
+    background-color: inherit;
     color: white;
+}
+
+.question-card__item__bookmark {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    top: -14px;
+    background-color: transparent;
 }
 
 .question-card__item__number {
@@ -48,4 +57,10 @@
     padding: 10px;
     color: white;
     margin-top: 10px;
+}
+
+.question-card__item__tag {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
 }
