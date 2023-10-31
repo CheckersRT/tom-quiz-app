@@ -2,6 +2,7 @@
 button.question-card__item__answer {
     background-color: white;
     min-width: 110px;
+    border-radius: 10px;
 
 }
 
