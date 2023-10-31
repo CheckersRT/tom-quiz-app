@@ -1,23 +1,21 @@
 
-.show-answer {
-    background-color: #68767F;
-    color: white;
+button.question-card__item__answer {
+    background-color: white;
+    min-width: 110px;
 
 }
 
 .answer-revealed, button:focus .show-answer {
-    background-color: #68767F;
     display: none;
 }
 
 button:focus .answer-revealed {
-    background-color: #68767F;
     display: block;
 }
 
+
 .answer-revealed ul, .answer-revealed ol, .answer-revealed li {
-    background-color: #68767F;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .answer-revealed li {
