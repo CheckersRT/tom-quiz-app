@@ -39,6 +39,7 @@
     width: 30px;
     height: 30px;
     background-image: url(../bookmark.png);
+    background-color: transparent;
     background-size: contain;
 }
 
@@ -77,10 +78,12 @@
     font-size: 0.8rem;
     display: flex;
     gap: 10px;
+    /* background-color: white; */
 }
 
-
-
+.question-card__item__tag-container p {
+    background-color: inherit;
+}
 
 /* hover over card effect */
 
