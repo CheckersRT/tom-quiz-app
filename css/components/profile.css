@@ -1,28 +1,26 @@
-.about-me {
-    /* border: 1px solid blue; */
-    display: flex;
+@import url(../global.css);
+
+.profile {
+    /* border: 1px solid red; */
     flex-direction: column;
-    gap: 20px;
     position: relative;
+    align-items: flex-start;
+    background-color: white;
 }
 
 .about-me__item {
     /* border: 1px solid blue; */
-    height: auto;
+    background-color: inherit;
 }
 
-.about-me__item__image {
-    height: 150px;
-}
-
-.about-me__item__image img {
+.about-me__item__image { 
     border-radius: 50%;
-    max-width: 150px;
+    width: 120px;
 }
 
 .about-me__item__name {
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 110px
 }
 
@@ -53,16 +51,20 @@
     width: 15px;
 }
 
-.settings__header {
-    margin-bottom: 15px;
-}
-
 .settings__darkmode {
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    width: 100%;
 }
 
-.settings img {
+.settings__darkmode p {
+    background-color: inherit;
+}
+
+.settings__darkmode img {
+    background-color: transparent;
     width: 45px;
 }
