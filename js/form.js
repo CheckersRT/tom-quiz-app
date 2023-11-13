@@ -9,17 +9,23 @@ const answerReveal = document.querySelector('[data-js="answer"]');
 const charactersQuestion = document.querySelector('[data-js="charactersQuestion"]')
 const charactersAnswer = document.querySelector('[data-js="charactersAnswer"]')
 
+const addButton = document.querySelector('[data-js="add-button"]')
 
-form.addEventListener("input", (event) => {
-
-
-    console.log(event.target.value.length);
-
-    const characterLength = event.target.value.length;
-
-    
-    const charactersRemaining = event.target.maxlength - characterLength;
+addButton.addEventListener("click", () => {
+    addButton.classList.toggle("add-button-filled");
 })
+
+
+// form.addEventListener("input", (event) => {
+
+//     console.log(event.target);
+//     console.log(event.target.value.length);
+
+//     const characterLength = event.target.value.length;
+
+//     console.log(event.target[maxlength]);
+//     const charactersRemaining = event.target["maxlength"] - characterLength;
+// })
 
 
 questionInput.addEventListener("input", (event) => {
@@ -41,6 +47,7 @@ answerInput.addEventListener("input", (event) => {
     // console.log(charactersRemaining);
 
     charactersAnswer.textContent = charactersRemaining;
+    event.target.reset();
 })
 
 
@@ -60,7 +67,7 @@ form.addEventListener("submit", (event) => {
     const cardContainer = document.createElement("section");
 
     document.body.append(cardContainer);
-    cardContainer.classList.add("question-card__container")
+    cardContainer.classList.add("question-card__container", "new-questions")
 
     cardContainer.innerHTML = `
     <button type="button" class="question-card__item question-card__item__bookmark question-card__item__bookmark__unfilled" data-js="bookmarkButton"></button>

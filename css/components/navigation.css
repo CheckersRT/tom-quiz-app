@@ -18,3 +18,11 @@ nav {
 .nav-item img {
     width: 30px;
 }
+
+.add-button-white {
+    background-image: url(../add.png);
+}
+
+.add-button-filled {
+    background-image: url(../add_filled.png);
+}

@@ -17,16 +17,3 @@ showAnswer.addEventListener("click", (event) => {
   showAnswer.textContent = "Show Answer";
 });
 
-// form.addEventListener("submit", (event) => {
-//   event.preventDefault();
-
-//   const formElements = event.target.elements;
-//   console.log(formElements);
-
-//   event.target.elements.question.focus();
-
-//   const formData = new FormData(event.target);
-//   const data = Object.fromEntries(formData);
-
-
-// });

@@ -7,11 +7,6 @@
     color: black;
 }
 
-section {
-    width: 85vw;
-    margin: auto;
-    margin-bottom: 20px;
-}
 
 section:last-child {
     margin-bottom: 60px;

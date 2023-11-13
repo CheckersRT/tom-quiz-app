@@ -10,6 +10,10 @@
   min-height: 100px;
   padding: 20px 30px;
 
+  width: 85vw;
+  margin: auto;
+  margin-bottom: 20px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,4 +94,14 @@
 
 .question-card__container:hover {
   box-shadow: 5px 14px 5px rgba(0, 0, 0, 0.08);
+}
+
+
+.question-card__item__characters {
+  align-self: end;
+  font-size: 0.8rem;
+}
+
+.new-questions {
+  margin-top: 10px;
 }
