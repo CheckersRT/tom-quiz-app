@@ -9,6 +9,19 @@ const answerReveal = document.querySelector('[data-js="answer"]');
 const charactersQuestion = document.querySelector('[data-js="charactersQuestion"]')
 const charactersAnswer = document.querySelector('[data-js="charactersAnswer"]')
 
+
+form.addEventListener("input", (event) => {
+
+
+    console.log(event.target.value.length);
+
+    const characterLength = event.target.value.length;
+
+    
+    const charactersRemaining = event.target.maxlength - characterLength;
+})
+
+
 questionInput.addEventListener("input", (event) => {
     const characterLength = event.target.value.length;
     // console.log(characterLength);
