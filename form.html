@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/form.js" defer></script>
+    <title>Add new question</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-item">
+        <a href="index.html"
+          ><img src="./assets/resources/home_filled.png" alt="home button"
+        /></a>
+      </div>
+      <div class="nav-item">
+        <a href="./profile.html"
+          ><img src="./assets/resources/profile.png" alt="profile button"
+        /></a>
+      </div>
+      <div class="nav-item" data-js="add-button">
+        <a href="./form.html">
+          <img
+            
+            src="./css/add.png"
+            alt="add question button"
+        /></a>
+      </div>
+      <div class="nav-item">
+        <a href="./bookmarks.html"
+          ><img src="./assets/resources/bookmark.png" alt="bookmark button"
+        /></a>
+      </div>
+    </nav>
+    <header class="header-container">
+      <div class="header-item"><h1>The</h1></div>
+      <div class="header-item">
+        <img
+          src="./assets/resources/Ironman_Triathlon_(logo).svg"
+          alt="ironman logo"
+        />
+      </div>
+      <div class="header-item"><h1>Quiz</h1></div>
+    </header>
+    <section class="questions">
+      <form data-js="form" class="question-card__container">
+        <label for="question" class="question-card__item"
+          ><h3 class="question-card__item">Question:</h3></label
+        >
+        <textarea
+          name="question"
+          id="question"
+          cols="35"
+          rows="7"
+          data-js="question"
+          maxlength="150"
+        ></textarea>
+        <p class="question-card__item question-card__item__characters">
+          Characters remaining: <span data-js="charactersQuestion">150</span>
+        </p>
+        <label for="answer" class="question-card__item"
+          ><h3 class="question-card__item">Answer:</h3></label
+        >
+        <textarea
+          name="answer"
+          id="answer"
+          cols="35"
+          rows="7"
+          data-js="answer"
+          maxlength="150"
+        ></textarea>
+        <p class="question-card__item question-card__item__characters">
+          Characters remaining: <span data-js="charactersAnswer">150</span>
+        </p>
+        <label for="tag" class="question-card__item"
+          ><h3 class="question-card__item">Add tag:</h3></label
+        >
+        <input type="text" name="tag" id="tag" />
+        <button class="question-card__item__show-answer" type="submit">
+          Create!
+        </button>
+      </form>
+    </section>
+    <section class="questions-new">
+    </section>
+  </body>
+</html>
