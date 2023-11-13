@@ -58,7 +58,7 @@ form.addEventListener("submit", (event) => {
   <button type="button" class="question-card__item question-card__item__bookmark question-card__item__bookmark__unfilled" data-js="bookmarkButton"></button>
   <h2 class="question-card__item question-card__item__question">${data.question}</h2>
     
-  <button type="button" class="question-card__item question-card__item__show-answer">Hide Answer</button>
+  <button type="button" class="question-card__item question-card__item__show-answer">Drag Me</button>
 
   <div class="question-card__item question-card__item__answer" data-js="answer">${data.answer}</div>
   

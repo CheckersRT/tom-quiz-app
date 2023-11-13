@@ -45,6 +45,7 @@
   text-align: center;
   background-color: inherit;
   color: black;
+  position: relative;
 }
 
 .question-card__item__bookmark {
@@ -85,8 +86,18 @@
   color: white;
   margin-top: 10px;
   border: none;
-  width: 100px;
+  width: 140px;
   height: 40px;
+  transition: transform 0.4s ease-out;
+}
+
+
+.question-card__item__answer {
+  position: absolute;
+  bottom: 55px;
+  z-index: -1;
+  font-size: 0.9rem;
+
 }
 
 .question-card__item__tag-container {
