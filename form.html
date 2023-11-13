@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/form.js" defer></script>
+    <title>Add new question</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-item">
+        <a href="index.html"
+          ><img src="./assets/resources/home_filled.png" alt="home button"
+        /></a>
+      </div>
+      <div class="nav-item">
+        <a href="./profile.html"
+          ><img src="./assets/resources/profile.png" alt="profile button"
+        /></a>
+      </div>
+      <div class="nav-item">
+        <a href="./form.html"
+          ><img src="./assets/resources/question.png" alt="add question button"
+        /></a>
+      </div>
+      <div class="nav-item">
+        <a href="./bookmarks.html"
+          ><img src="./assets/resources/bookmark.png" alt="bookmark button"
+        /></a>
+      </div>
+    </nav>
+    <form data-js="form">
+        <label for="question">Question:</label>
+        <textarea name="question" id="question" cols="30" rows="10" data-js="question"></textarea>
+        <p>Characters remaining: <span data-js="charactersQuestion">150</span></p>
+        <label for="answer">Answer:</label>
+        <textarea name="answer" id="answer" cols="30" rows="10" data-js="answer"></textarea>
+        <p>Characters remaining: <span data-js="charactersAnswer">150</span></p>
+        <label for="tag">Add tag:</label>
+        <input type="text" name="tag" id="tag" />
+        <button type="submit">Create!</button>
+    </form>
+  </body>
+</html>
