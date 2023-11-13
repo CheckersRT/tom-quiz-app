@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.questions-new {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .question-card__container {
   width: 100%;
   min-height: 100px;
@@ -75,10 +83,6 @@
   height: 40px;
 }
 
-.question-card__item__answer {
-
-}
-
 .question-card__item__tag-container {
   /* border: solid 1px blue; */
   font-size: 0.8rem;
@@ -104,4 +108,5 @@
 
 .new-questions {
   margin-top: 10px;
+  margin-bottom: 20px
 }
