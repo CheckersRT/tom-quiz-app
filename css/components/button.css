@@ -1,33 +1,18 @@
 
 button.question-card__item__answer {
     border: none;
-}
-
-button.question-card__item__answer:hover .show-answer {
-    background-color: #68767F;
-}
-
-.answer-revealed {
-    background-color: white;
-    color: black;
-}
-
-.show-answer {
     background-color: #D71834;
     color: white;
-    padding: 10px;
-}
-
-.answer-revealed, button:focus .show-answer {
-    display: none;
-
-}
-
-button:focus .answer-revealed {
-    display: block;
 }
 
 
+
+
+
+
+
+
+/* 
 .answer-revealed ul, .answer-revealed ol, .answer-revealed li {
     margin-left: 10px;
     background-color: white;
@@ -37,4 +22,4 @@ button:focus .answer-revealed {
 .answer-revealed li {
     text-align: left;
     line-height: 1.4;
-}
+} */
