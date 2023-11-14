@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tom's Ironman Quiz</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/profile.js" defer></script>
   </head>
-  <body>
+  <body data-js="darkmode">
     <nav>
       <div class="nav-item">
         <a href="./index.html"
@@ -78,7 +79,7 @@
           <h3 class="about-me__item">Settings</h3>
           <div class="about-me__item settings__darkmode">
             <p>Darkmode</p>
-            <img src="./assets/resources/5720465.png" alt="toggle" />
+            <div class="darkmode--toggle darkmode--toggle" data-js="toggle--button"></div>
           </div>
         </section>
       </section>
