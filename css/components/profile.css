@@ -67,4 +67,18 @@
 .settings__darkmode img {
     background-color: transparent;
     width: 45px;
+    height: 100%;
+}
+
+.darkmode--toggle {
+    width: 40px;
+    height: 40px;
+    background-image: url(../5720465.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.darkmode--toggle-on {
+    transform: rotate(180deg)
 }

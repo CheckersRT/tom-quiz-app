@@ -11,3 +11,8 @@
 section:last-child {
     margin-bottom: 60px;
 }
+
+:root {
+    --darkmode-background: #68767F;
+    --darkmode-text: white;
+}
