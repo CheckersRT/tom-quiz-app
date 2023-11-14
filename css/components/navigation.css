@@ -9,6 +9,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     border-top: 0.5px solid #68767F;
+    background-color: var(--lightmode-background);
+
 }
 
 .nav-item {
