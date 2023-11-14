@@ -1,15 +1,17 @@
 const toggleButton = document.querySelector('[data-js="toggle--button"]');
-const darkmode = document.querySelector('[data-js="darkmode"]')
+const darkmode = document.querySelector('[data-js="darkmode"]');
 
 toggleButton.addEventListener("click", (event) => {
-    toggleButton.classList.toggle("darkmode--toggle-on")
-    // console.log(toggleButton.classList.value);
-})
+  toggleButton.classList.toggle("darkmode--toggle-on");
 
-// if(toggleButton.classList.value = "darkmode--toggle darkmode--toggle-on") {
+document.body.classList.add("darkmode--body")
+console.log(document.body.classList)
 
-//     console.log(darkmode.style.backgroundColor)
-    
 
-// } darkmode.backgroundColor = "black";
-// // console.log(darkmode.backgroundColor);
+//   if (toggleButton.classList.value === "darkmode--toggle darkmode--toggle-on") {
+//     document.body.style.backgroundColor = "#68767F";
+//     console.log(document.body.style.backgroundColor);
+//   } console.log(document.body.style.backgroundColor);
+//   return;
+
+});

@@ -82,3 +82,7 @@
 .darkmode--toggle-on {
     transform: rotate(180deg)
 }
+
+.darkmode--body {
+    background-color: #68767F;
+}
