@@ -11,10 +11,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--lightmode-background);
     color: var(--lightmode-text);
 }
 
+body {
+    background-color: var(--lightmode-background);
+
+}
 
 section:last-child {
     margin-bottom: 60px;
