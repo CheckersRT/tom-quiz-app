@@ -84,5 +84,5 @@
 }
 
 .darkmode--body {
-    background-color: #68767F;
+    background-color: var(--darkmode-background);
 }
