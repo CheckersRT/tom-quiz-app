@@ -97,8 +97,13 @@
   bottom: 55px;
   z-index: -1;
   font-size: 0.9rem;
+}
+.question-card__item__answer ul {
+  list-style-position: inside;
+  border: 1px solid black;
 
 }
+
 
 .question-card__item__tag-container {
   /* border: solid 1px blue; */
