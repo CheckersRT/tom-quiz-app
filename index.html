@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/index.js" defer></script>
     <script src="./js/responsive-buttons.js" defer></script>
+    <script src="./js/main-quiz-form.js" defer></script>
 </head>
 <body>
     <nav>
@@ -40,20 +41,26 @@
             <div class="question-card__item question-card__item__number">1</div>
             <h2 class="question-card__item question-card__item__question">What is the average completion time for an Ironman?</h2>
 
-            <fieldset class="question-card__item question-card__item__multiple-choice">
-                <div class="multiple-choice__options">
-                    <label for="option-1">8 hours</label>
-                    <input type="radio" name="completion-time" id="option-1" value="8-hours">
+            <form data-js="question-1">
+                <div class="question-card__item question-card__item__multiple-choice">
+                    <div class="multiple-choice__options">
+                        <label for="option-1">8 hours</label>
+                        <input type="radio" name="completionTime" id="option-1" value="wrong">
+                    </div>
+                    <div class="multiple-choice__options">
+                        <label for="option-2">5 hours 25 minutes</label>
+                        <input type="radio" name="completionTime" id="option-2" value="wrong">
+                    </div>
+                    <div class="multiple-choice__options">
+                        <label for="option-3">12 hours 35 minutes</label>
+                        <input type="radio" name="completionTime" id="option-3" value="correct">
+                    </div>
                 </div>
-                <div class="multiple-choice__options">
-                    <label for="option-2">5 hours 25 minutes</label>
-                    <input type="radio" name="completion-time" id="option-2" value="5-hours-25-minutes">
+                <div class="question-card__item">
+                    <button type="submit">Check Your Answer</button>
                 </div>
-                <div class="multiple-choice__options">
-                    <label for="option-3">12 hours 35 minutes</label>
-                    <input type="radio" name="completion-time" id="option-3" value="12-hours-35-minutes">
-                </div>
-            </fieldset>
+            </form>
+
 
             <div class="question-card__item question-card__item__button-and-answer">
                 <button type="subtmit" class="question-card__item__show-answer" data-js="show-answer">Drag Me</button>
