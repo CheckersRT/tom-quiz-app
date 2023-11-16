@@ -40,8 +40,23 @@
             <div class="question-card__item question-card__item__number">1</div>
             <h2 class="question-card__item question-card__item__question">What is the average completion time for an Ironman?</h2>
 
+            <fieldset class="question-card__item question-card__item__multiple-choice">
+                <div class="multiple-choice__options">
+                    <label for="option-1">8 hours</label>
+                    <input type="radio" name="completion-time" id="option-1" value="8-hours">
+                </div>
+                <div class="multiple-choice__options">
+                    <label for="option-2">5 hours 25 minutes</label>
+                    <input type="radio" name="completion-time" id="option-2" value="5-hours-25-minutes">
+                </div>
+                <div class="multiple-choice__options">
+                    <label for="option-3">12 hours 35 minutes</label>
+                    <input type="radio" name="completion-time" id="option-3" value="12-hours-35-minutes">
+                </div>
+            </fieldset>
+
             <div class="question-card__item question-card__item__button-and-answer">
-                <button type="button" class="question-card__item__show-answer" data-js="show-answer">Drag Me</button>
+                <button type="subtmit" class="question-card__item__show-answer" data-js="show-answer">Drag Me</button>
 
                 <div class="question-card__item__answer" data-js="answer">12 hours 35 minutes</div>
             </div>
@@ -194,7 +209,7 @@
             </button>
             <div class="question-card__item question-card__item__number">9</div>
             <h2 class="question-card__item question-card__item__question">Above which temperature are wetsuits forbidden for the swim?</h2>
-            
+
             <div class="question-card__item question-card__item__button-and-answer">
                 <button type="button" class="question-card__item question-card__item__show-answer" data-js="show-answer">Drag Me</button>
                 <div class="question-card__item question-card__item__answer" data-js="answer">24.5&#8451</div>

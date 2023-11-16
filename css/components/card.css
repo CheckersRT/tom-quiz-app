@@ -81,6 +81,13 @@
   margin-top: 10px;
 }
 
+.question-card__item__multiple-choice {
+  display: flex;
+  gap: 10px;
+}
+
+
+
 
 .question-card__item__button-and-answer {
   display: flex;
@@ -104,7 +111,6 @@
 
 
 .question-card__item__answer {
-  /* bottom: 55px;  */
   position: absolute;
   z-index: -1;
   font-size: 0.9rem;
@@ -143,3 +149,5 @@
   margin-top: 10px;
   margin-bottom: 20px
 }
+
+
