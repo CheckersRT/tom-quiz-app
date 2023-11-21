@@ -1,25 +1,35 @@
-const form = document.querySelector('[data-js="question-1"]');
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const formElements = event.target.elements;
-
-  console.log(formElements);
+const questionCards = document.querySelectorAll('[data-js="question-card"]');
+const forms = document.querySelectorAll('[data-js="questions"]');
+const correctAnswer = document.querySelector('[data-js="answer__correct"]');
 
 
-  const choicesQuestionOne = document.querySelectorAll(".multiple-choice__options");
 
-  console.log(choicesQuestionOne);
+forms.forEach((form, formIndex) => {
 
-  const correctChoice = choicesQuestionOne.filter((choice) => {
-  console.log(choice.checked)
-  return choice.checked == true
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+  
+    const formElements = event.target.elements;
+  
+    if(formElements.completionTime.value === "correct") {
+
+      questionCards.forEach((card, cardIndex) => {
+        if(formIndex === cardIndex) {
+          card.classList.remove("red")
+          card.classList.add("green");
+        }
+      });
+    } else {
+      questionCards.forEach((card, cardIndex) => {
+        if(formIndex === cardIndex) {
+      card.classList.remove("green");
+      card.classList.add("red")
+        }
+      });
+    }
+    form.reset();
+  });
 })
-
-
-
-});
 
 
 

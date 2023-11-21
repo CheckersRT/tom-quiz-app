@@ -36,12 +36,12 @@
 <!-- QUESTION CARDS -->
 
         <section class="questions">
-        <section class="question-card__container">
+        <section class="question-card__container" data-js="question-card">
             <button type="button" class="question-card__item question-card__item__bookmark question-card__item__bookmark__unfilled" data-js="bookmark"></button>
             <div class="question-card__item question-card__item__number">1</div>
             <h2 class="question-card__item question-card__item__question">What is the average completion time for an Ironman?</h2>
 
-            <form data-js="question-1">
+            <form data-js="questions">
                 <div class="question-card__item question-card__item__multiple-choice">
                     <div class="multiple-choice__options">
                         <label for="option-1">8 hours</label>
@@ -51,16 +51,15 @@
                         <label for="option-2">5 hours 25 minutes</label>
                         <input type="radio" name="completionTime" id="option-2" value="wrong">
                     </div>
-                    <div class="multiple-choice__options">
+                    <div class="multiple-choice__options" data-js="answer__correct">
                         <label for="option-3">12 hours 35 minutes</label>
-                        <input type="radio" name="completionTime" id="option-3" value="correct" data-js="">
+                        <input type="radio" name="completionTime" id="option-3" value="correct" >
                     </div>
                 </div>
                 <div class="question-card__item">
                     <button type="submit">Check Your Answer</button>
                 </div>
             </form>
-
 
             <div class="question-card__item question-card__item__button-and-answer">
                 <button type="subtmit" class="question-card__item__show-answer" data-js="show-answer">Drag Me</button>
@@ -74,7 +73,8 @@
             </div>
         </section>
 
-        <section class="question-card__container">
+
+        <section class="question-card__container" data-js="question-card">
             <button type="button" class="question-card__item question-card__item__bookmark question-card__item__bookmark__unfilled" data-js="bookmark">
             </button>
             <div class="question-card__item question-card__item__number">2</div>
