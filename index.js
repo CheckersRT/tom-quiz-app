@@ -14,6 +14,5 @@ for (const bookmark of bookmarks) {
 }
 
 
-
 dragToRevealAnswer();
 calculateBoxHeightAndWidth();
