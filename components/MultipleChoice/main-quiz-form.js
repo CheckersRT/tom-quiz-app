@@ -10,8 +10,10 @@ forms.forEach((form, formIndex) => {
     event.preventDefault();
   
     const formElements = event.target.elements;
+
+    console.log(formElements)
   
-    if(formElements.completionTime.value === "correct") {
+    if(formElements.numberDisciplines.value === "correct") {
 
       questionCards.forEach((card, cardIndex) => {
         if(formIndex === cardIndex) {
@@ -27,7 +29,7 @@ forms.forEach((form, formIndex) => {
         }
       });
     }
-    form.reset();
+    // form.reset();
   });
 })
 

@@ -80,6 +80,26 @@
             <div class="question-card__item question-card__item__number">2</div>
             <h2 class="question-card__item question question-card__item__question">How many disciplines are there in an Ironman triathlon?</h2>
 
+            <form data-js="questions">
+                <div class="question-card__item question-card__item__multiple-choice">
+                    <div class="multiple-choice__options">
+                        <label for="option-1">3</label>
+                        <input type="radio" name="numberDisciplines" id="option-1" value="correct">
+                    </div>
+                    <div class="multiple-choice__options">
+                        <label for="option-2">4</label>
+                        <input type="radio" name="numberDisciplines" id="option-2" value="wrong">
+                    </div>
+                    <div class="multiple-choice__options" data-js="answer__correct">
+                        <label for="option-3">2</label>
+                        <input type="radio" name="numberDisciplines" id="option-3" value="wrong" >
+                    </div>
+                </div>
+                <div class="question-card__item">
+                    <button type="submit">Check Your Answer</button>
+                </div>
+            </form>
+
             <div class="question-card__item question-card__item__button-and-answer">
                 <button type="button" class="question-card__item question-card__item__show-answer" data-js="show-answer">Drag Me</button>
 
